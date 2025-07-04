@@ -12,27 +12,27 @@ It interprets conversational inputs using ToneSig™ codes (e.g. ¡13.83) to sim
 
 ⸻
 
-📁 Structure
+## 📁 Structure
 
+```text
 tonesig_responder/
-├── init.py
-├── main.py              → Main demo runner
-├── putman_logic.py      → Response engine logic
-├── simulate_inputs.py   → Sample test input batch
-├── tonesig_data.py      → ToneSig metadata (label + description)
+├── __init__.py
+├── main.py              # Main demo runner
+├── putman_logic.py      # Response engine logic
+├── simulate_inputs.py   # Sample test input batch
+├── tonesig_data.py      # ToneSig metadata (label + description)
 
 test/
-└── test_putman.py       → Basic pytest suite
-
+└── test_putman.py       # Basic pytest suite
+```
 ⸻
 
-🚀 Run the Demo
-	1.	Open terminal and navigate to the folder:
-cd tonesig_responder
-	2.	Run the script:
-python3 -m tonesig_responder.main
-	3.	When prompted, enter live messages to simulate dialogue with the ToneSig engine.
+## ▶️ Run the Demo
 
+```bash
+cd tonesig_responder
+python3 -m tonesig_responder.main
+'''
 ⸻
 
 🔧 More coming soon!
